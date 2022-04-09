@@ -10,7 +10,7 @@ char c;
 for (c= 'a'; c <= 'z'; ++c)
 {
 if (c != 'e' && c != 'q')
-putchar(ch);
+putchar(c);
 }
 
 putchar('\n');
