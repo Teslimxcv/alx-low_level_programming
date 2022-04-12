@@ -1,17 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
+ * _islower - check for lower case letter
+ * @c : character to check the case
+ * Return:0 or 1
  */
-void print_alphabet_x10(void)
-{
-int count = 0;
-char letter;
 
-while (count++ <= 9)
+int _islower(int c)
 {
-for (letter = 'a'; letter <= 'z'; letter++)
-_putchar(letter);
-_putchar('\n');
-}
+	return (c >= 97 && c <= 122);
+
 }
