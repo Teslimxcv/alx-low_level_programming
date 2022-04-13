@@ -23,7 +23,7 @@ else if (n == 0)
 else
 {
 	test = -1;
-	_putchar('_');
+	_putchar('-');
 }
 
 return (test);
