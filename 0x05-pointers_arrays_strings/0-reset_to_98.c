@@ -1,7 +1,8 @@
 #include "main.h"
 /*
  * reset_to_98 - reset argument to 98
- * @n: pointer of the direcction at the variable n
+ * @n: pointer of the direction at the variable n
+ * Description: points to 98
  * Return: 0 (success)
  */
 
